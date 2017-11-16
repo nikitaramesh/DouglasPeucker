@@ -165,7 +165,7 @@ public class Douglas_Peucker{
 		System.out.println("Line initial points: ");
 		display();
 		//initial data
-		createChart("E:\\chart.jpg");
+		createChart("chart.jpg");
 		
 		//call Douglas Peucker with epsilon value
 		DouglasPeucker(head, tail, 5.0f);
@@ -173,6 +173,6 @@ public class Douglas_Peucker{
 		display();
 		
 		//data after line simplification
-		createChart("E:\\finalchart.jpg");
+		createChart("finalchart.jpg");
 	}
 }
